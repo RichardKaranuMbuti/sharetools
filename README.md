@@ -4,12 +4,12 @@ A community tool sharing application backend built with Node.js, Express, TypeSc
 
 ## Group Members
 
-| Name              | Registration Number |
-|-------------------|---------------------|
-| RICHARD KARANU    |  SCT212-0062/2019        |
-| [Member 2 Name]   | [Reg No. 2]         |
-| [Member 3 Name]   | [Reg No. 3]         |
-| [Member 4 Name]   | [Reg No. 4]         |
+| Name            | Registration Number |
+| --------------- | ------------------- |
+| RICHARD KARANU  | SCT212-0062/2019    |
+| [Member 2 Name] | [Reg No. 2]         |
+| [Member 3 Name] | [Reg No. 3]         |
+| [Member 4 Name] | [Reg No. 4]         |
 
 ## Description
 
@@ -63,6 +63,14 @@ Create the database:
 
 ```bash
 createdb sharetools_db
+```
+
+Run the migration with:
+
+```bash
+
+npm run migrate
+
 ```
 
 ## Running the Application
